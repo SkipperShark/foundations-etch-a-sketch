@@ -9,6 +9,7 @@ fillGridContainerWithGridItems(numGridItemsPerSide);
 changeButton.addEventListener("click", (event) => {
     numGridItemsPerSide = prompt("How many squares per side?");
     fillGridContainerWithGridItems(numGridItemsPerSide);
+    document.querySelector("#numSquareDisplay").textContent = numGridItemsPerSide;
 })
 
 // console.log(`numGridItemsPerSide : ${numGridItemsPerSide}`);
