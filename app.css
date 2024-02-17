@@ -31,7 +31,7 @@ body {
 
 .gridItem {
     border: 1px solid white;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
     flex: 1 0 50%
 }
 
